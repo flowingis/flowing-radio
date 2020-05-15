@@ -1,0 +1,56 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "it-IT": {
+          "summary": "La Skill ufficiale di Flowing Radio",
+          "examplePhrases": [
+            "Alexa Apri Flowing Radio",
+            "Alexa Apri Flowing Radio e fammi ascoltare l'ultimo podcast"
+          ],
+          "keywords": [
+            "Flowing",
+            "Software",
+            "Development"
+          ],
+          "name": "Flowing Radio",
+          "description": "Grazie a questa Skill puoi ascoltare direttamente sul tuo dispositivo Echo il podcast ufficiale di Flowing",
+          "smallIconUri": "file://assets/images/it-IT_smallIconUri.png",
+          "largeIconUri": "file://assets/images/it-IT_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Just open the skill and listen to the podcast",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": [
+        "IT"
+      ]
+    },
+    "apis": {
+      "custom": {
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ],
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-central-1:075386326567:function:ask-flowingradio-alexalab-default-1589536792004"
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "it-IT": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}

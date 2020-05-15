@@ -1,0 +1,5 @@
+{
+    "title": "Flowing Radio",
+    "url":"https://api.spreaker.com/v2/shows/flowing-radio/episodes?limit=1000",
+    "debug": false
+}

@@ -1,0 +1,35 @@
+{
+  "askcliStatesVersion": "2020-03-31",
+  "profiles": {
+    "default": {
+      "skillInfrastructure": {
+        "@ask-cli/lambda-deployer": {
+          "deployState": {}
+        }
+      }
+    },
+    "alexalab": {
+      "skillId": "amzn1.ask.skill.63b9acea-dd33-40e9-b472-d54bfcecdc83",
+      "skillMetadata": {
+        "lastDeployHash": "s9pSRh1niWx1TkwXitTNvhHurWY="
+      },
+      "code": {
+        "default": {}
+      },
+      "skillInfrastructure": {
+        "@ask-cli/lambda-deployer": {
+          "deployState": {
+            "default": {
+              "iamRole": "arn:aws:iam::075386326567:role/ask-lambda-FlowingRadio-1589536781272",
+              "lambda": {
+                "arn": "arn:aws:lambda:eu-central-1:075386326567:function:ask-flowingradio-alexalab-default-1589536792004",
+                "lastModified": "2020-05-15T17:05:57.378+0000",
+                "revisionId": "669ec717-d135-4fbc-b66b-ded1b89ca398"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

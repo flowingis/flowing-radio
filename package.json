@@ -1,0 +1,15 @@
+{
+  "name": "flowing-radio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "ask deploy --profile alexalab"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^14.3.3"
+  }
+}
